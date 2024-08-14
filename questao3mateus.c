@@ -10,6 +10,6 @@ int main(){
     printf("Digite um número: ");
     scanf("%d", &num3);
     media = (num1 + num2 + num3)/3;
-    printf("Média = %.2f.\n",media);
+    printf("Média = %.2f\n",media);
     return 0;
 }

@@ -5,6 +5,6 @@ int main(){
     printf("Digite o peso em quilogramas: ");
     scanf("%f", &kg);
     libra = kg * 2.20462;
-    printf("\nO peso em libras é = %.5f",libra);
+    printf("\nO peso em libras é = %.2f",libra);
     return 0;
 }

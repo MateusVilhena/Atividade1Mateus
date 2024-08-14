@@ -5,6 +5,6 @@ int main(){
     printf("Digite a medida em metros: ");
     scanf("%f", &metro);
     pe = metro * 3.28084;
-    printf("\nA medida em pés é = %.5f",pe);
+    printf("\nA medida em pés é = %.2f",pe);
     return 0;
 }
